@@ -182,7 +182,7 @@
                 var formattedData = 'Nama Lengkap: ' + namaLengkap + '\n'
                     + 'No Telepon: ' + noTelepon + '\n'
                     + 'Alamat: ' + alamat + '\n'
-                    + 'Menu: ' + menu1;
+                    + 'Pesan: ' + menu1;
 
                 var whatsappLink = 'https://api.whatsapp.com/send?phone= +6283117589765&text=' + encodeURIComponent('Member Baru:\n' + formattedData);
                 window.open(whatsappLink);
